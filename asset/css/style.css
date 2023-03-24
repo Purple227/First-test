@@ -1,0 +1,145 @@
+
+@import url(https://fonts.googleapis.com/css?family=Noto+Sans+SC);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+body{
+
+}
+
+/*******************  Navbar Design ***********************************/
+.nav-item, .nav-link {
+    font-family: 'Noto Sans SC', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    margin: 3px;
+    color: #3359B0;
+}
+
+.hero{
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    background-image: linear-gradient(180deg, rgba(51, 89, 176, 0), rgba(51, 89, 176, 0.88) 78.51%), url("../image/hero.png");
+}
+
+.hero-title{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    color: #FFFFFF;
+}
+
+.hero-text {
+font-family: 'Open Sans', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+color: #FFFFFF;
+}
+
+.hero-action {
+font-family: 'Noto Sans SC';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 35px;
+color: #FFFFFF;
+}
+
+.badge {
+    background-color: white;
+    color: #3359B0;
+    cursor: pointer;
+}
+
+.custom-text {
+color: #3359B0;
+font-family: 'Noto Sans SC';
+font-style: normal;
+font-weight: 500;
+font-size: 13px;
+}
+
+.bg-customize-warning{
+    background: #E98D37;
+}
+
+.section-title {
+font-family: 'Noto Sans SC';
+font-style: normal;
+font-weight: 500;
+font-size: 28px;
+color: #3359B0;
+}
+
+.bg-primary {
+background: #3359B0;
+border-radius: 10px 10px 0px 0px;
+height: 80px;
+}
+
+.custom-card-head-1 {
+font-family: 'Noto Sans SC';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+color: #F8F8F8;
+}
+
+.custom-card-head-2 {
+font-family: 'Noto Sans SC';
+font-style: normal;
+font-weight: 700;
+font-size: 12px;
+color: #F8F8F8;
+}
+
+
+.form-control, .form-select {
+background: #FFFFFF;
+border: 0.5px solid #909090;
+border-radius: 10px;
+}
+
+.btn-text-sm {
+font-family: 'Noto Sans SC';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+}
+
+.btn-warning-custom{
+    background: #E08735;
+border-radius: 10px;
+}
+
+.custom-card {
+    position: relative;
+    top: 40px;
+}
+
+.custom-card-title {
+font-family: 'Noto Sans SC';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+color: #3359B0;
+}
+
+.custom-text-color {
+    color: #3359B0;
+}
+
+.custom-card-text {
+font-family: 'Noto Sans SC';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+color: #3359B0;
+}
+
+
+
+
