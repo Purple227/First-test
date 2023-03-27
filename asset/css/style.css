@@ -140,6 +140,160 @@ font-size: 13px;
 color: #3359B0;
 }
 
+.section-two-container {
+    background: url('../image/left.png'), url('../image//right.png'), #EDF2FF;
+    background-position: left bottom, right top;
+    background-repeat: no-repeat, no-repeat;
+}
 
+.section-three-container {
+    background: url('../image/center.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 85% 95%;
+}
+
+.practice-lst {
+    list-style-image: url('../icons/arrow-forward-ios-rounded.svg');
+  }
+
+.practice-lst > li {
+font-family: 'Noto Sans SC';
+font-style: normal;
+font-weight: 500;
+font-size: 19px;
+color: #3359B0;
+  }
+
+  .comma {
+    font-family: 'Noto Sans SC';
+    font-style: normal;
+    color: #E08735;
+    font-size: 80px;
+    position: absolute;
+  }
+
+.testimony {
+font-family: 'Noto Sans SC';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+color: #3359B0;
+}
+
+.testimony-author {
+font-family: 'Noto Sans SC';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+color: #E08735;
+}
+
+.section-four-container {
+    background: #EDF2FF;
+}
+
+.custom-accordion-title {
+font-family: 'Noto Sans SC';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+color: #7C7C7C;
+}
+
+.custom-accordion-text {
+font-family: 'Noto Sans SC';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+color: #7C7C7C;
+margin-left: 60px;
+}
+
+@media only screen and (max-width: 768px) {
+    .custom-accordion-text {
+    margin-left: 0px;
+    }
+}
+
+.accordion-item {
+    cursor: pointer;
+}
+
+.section-five-container {
+    background: url('../icons/Book bg 2.png');
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+.card-style {
+background: #FFFFFF;
+box-shadow: 2px 4px 18px rgba(0, 0, 0, 0.25);
+border-radius: 15px;
+}
+
+.footer-section {
+background: #3359B0;
+border: 1px solid #000000;
+}
+
+.footer-title {
+font-family: 'Noto Sans SC';
+font-style: normal;
+font-weight: 700;
+font-size: 45px;
+color: #E98D37;
+}
+
+.footer-subtitle {
+font-family: 'Noto Sans SC';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+color: #E98D37;
+}
+
+.footer-link-title {
+font-family: 'Noto Sans SC';
+font-style: normal;
+font-weight: 900;
+font-size: 24px;
+color: #FFFFFF;
+}
+
+ul.footer-list {
+    list-style-type: none;
+}
+
+.footer-list > li {
+    font-family: 'Noto Sans SC';
+    font-size: 20px;
+    color: #FFFFFF;
+    margin: 10px;
+}
+
+.footer-small {
+font-family: 'Noto Sans SC';
+font-size: 14px;
+color: #FFFFFF;
+margin-left:100px;
+}
+
+.footer-tiny-titie {
+font-family: 'Noto Sans SC';
+font-style: normal;
+font-weight: 900;
+font-size: 15px;
+color: #ABC5FF;
+}
+
+.footer-tiny-text {
+font-family: 'Noto Sans SC';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+color: #ABC5FF;
+}
 
 
